@@ -1,0 +1,11 @@
+{
+  "modmenu.nameTranslation.mss": "MoreStorageStack",
+  "modmenu.descriptionTranslation.mss": "Lets you configure item stack sizes up to 4096 with an in-game config menu.",
+  "key.category.pancreas.main": "ReX",
+  "key.category.pancreas": "ReX",
+  "key.category.rex": "ReX",
+  "key.category.rex.main": "ReX",
+  "key.category.mss": "ReX",
+  "key.category.mss.main": "ReX",
+  "key.mss.config": "MSS"
+}

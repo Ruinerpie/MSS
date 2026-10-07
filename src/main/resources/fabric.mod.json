@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "mss",
+  "version": "${version}",
+  "name": "MoreStorageStack",
+  "description": "Lets you configure item stack sizes up to 4096 with an in-game config menu.",
+  "authors": [
+    "Ruinerpie"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/mss"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/mss/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "ruinerpie.mss.MSS"
+    ],
+    "client": [
+      "ruinerpie.mss.client.MSSClient"
+    ],
+    "modmenu": [
+      "ruinerpie.mss.client.MSSModMenu"
+    ]
+  },
+  "mixins": [
+    "mss.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": [
+      "26.1",
+      "26.1.1",
+      "26.1.2"
+    ],
+    "java": ">=25",
+    "fabric-api": "*",
+    "mixinextras": "*"
+  }
+}
